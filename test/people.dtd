@@ -1,0 +1,12 @@
+
+<!ELEMENT people (person)*>
+<!ELEMENT person (name, email, gender, ip-address)>
+<!ATTLIST person id CDATA #IMPLIED>
+<!ELEMENT name (first, last)>
+<!ELEMENT first (#PCDATA)>
+<!ELEMENT last (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT ip-address (#PCDATA)>
+
+<!ENTITY snowman "☃">
